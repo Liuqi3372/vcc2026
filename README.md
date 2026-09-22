@@ -1,16 +1,6 @@
 # VCC2026：最初版 Atlas Transfer 模型
 
-用于预测单细胞 CRISPRi 扰动响应的 Atlas Transfer 模型。此代码包来自 `casia1:/ssd2/liuqi/xiexiu/code` 及同级最早的数据准备脚本，未纳入后续 `v1`、`v2`、`v3` 或网页评测适配版本。
-
-本次只整理目录、移除 Python 注释与文档字符串、修正迁移后的文件路径，并补充说明。模型计算逻辑、超参数、随机种子和源数据处理公式均未调整。原有命令行帮助文本已转为普通字符串保留。
-
-## 版本与评分
-
-源代码 Git 提交为 `ffd0c66bad1c7a57153bda2da91a842f3ba58ef2`，取回时工作区干净。6 个核心文件的 SHA256 与当时保存的运行记录一致。
-
-最初目录保存的官方评分 `score_avg` 为 **0.15592419253448622**，提交名为 `Xiexiu-X1-LocalAtlas-ABC-20260915`，提交 ID 为 `4HYR6o6tILZhdXbCoJru`。记录见 [official_latest.json](results/official_latest.json)。用户口述的 1.59 / 0.59 尚未匹配到评分证据，因此不作为本项目已验证的分数。
-
-上游 README 另记载了 0.1545618019；它对应上游数据流程，不能与这里的本地数据适配结果混用。这里的“最初版”指 xiexiu 根目录中、后续 v1/v2/v3 之前保存的版本，不代表未经本地数据适配的上游实验。
+用于预测单细胞 CRISPRi 扰动响应的 Atlas Transfer 模型。
 
 ## 目录
 
@@ -105,8 +95,5 @@ vcc-env/bin/python src/pack.py output/prediction_ABC_local.h5ad --data-dir data 
 python tools/verify_delivery.py
 ```
 
-本次检查了历史 SHA256、10 个 Python 文件的语法、注释清理前后忽略文档字符串的 AST 一致性，以及交付文件完整性。路径替换和命令行帮助保留属于显式整理修改，详见 `results/cleanup_verification.json`。未重新运行模型或重新评测，因此不将历史运行结果视为本次复现结果。
 
-## 来源与许可
 
-保留上游 MIT [LICENSE](LICENSE) 及 [原始 README](docs/README.upstream.md)。数据仍适用各自许可。历史结果与来源说明见 [PROVENANCE.md](docs/PROVENANCE.md)。本地交付包不含访问 token、账号凭据或自动提交流程。
