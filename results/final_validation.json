@@ -1,0 +1,28 @@
+{
+  "state": "complete",
+  "contexts": [
+    "A",
+    "B",
+    "C"
+  ],
+  "cells": 360000,
+  "genes": 18533,
+  "targets_per_context": 300,
+  "cells_per_target": 400,
+  "files": [
+    {
+      "path": "/ssd2/liuqi/xiexiu/output/prediction_ABC_local.h5ad",
+      "bytes": 4762946566,
+      "sha256": "ddabc3cc16c22fc22f8dfadcbfd3ab54d0de81575f8514d2cc38dc3f57a2334e"
+    },
+    {
+      "path": "/ssd2/liuqi/xiexiu/output/prediction_ABC_local.vcc",
+      "bytes": 3997163520,
+      "sha256": "9a911ee4564030b36c11d2123ef9067a8893120caa7c420b8386666fe806daf5"
+    }
+  ],
+  "elapsed_seconds": 204.32380485534668,
+  "variant": "Local QC K562/HCT116/HEK293T; original H1/CD4/promoter preparation",
+  "official_vcc_prep_passed": true,
+  "optional_compaction": "skipped; official package built directly from original CSR prediction"
+}

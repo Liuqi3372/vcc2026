@@ -1,0 +1,53 @@
+{
+  "contexts": {
+    "A": {
+      "control_cells": 18400,
+      "depth_min": 3275,
+      "depth_max": 52420
+    },
+    "B": {
+      "control_cells": 18400,
+      "depth_min": 710,
+      "depth_max": 42666
+    },
+    "C": {
+      "control_cells": 18400,
+      "depth_min": 3447,
+      "depth_max": 50965
+    }
+  },
+  "sources": {
+    "K562_GWPS_CPM_local_QC": {
+      "targets_with_20_cells": 265,
+      "covered_official_genes": 7681,
+      "source_targets": 437,
+      "source_genes": 8246
+    },
+    "HCT116_local_QC": {
+      "targets_with_20_cells": 287,
+      "covered_official_genes": 18106,
+      "source_targets": 437,
+      "source_genes": 18536
+    },
+    "HEK293T_local_QC": {
+      "targets_with_20_cells": 291,
+      "covered_official_genes": 18106,
+      "source_targets": 437,
+      "source_genes": 18536
+    },
+    "H1_2025_public": {
+      "targets_with_20_cells": 25,
+      "covered_official_genes": 18077,
+      "source_targets": 300,
+      "source_genes": 18080
+    },
+    "CD4_DE": {
+      "targets_passing_publisher_qc": 251,
+      "covered_official_genes": 10113
+    }
+  },
+  "n_targets": 300,
+  "n_genes": 18533,
+  "promoter_pairs": 75,
+  "targets_without_any_source": []
+}

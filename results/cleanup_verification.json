@@ -1,0 +1,102 @@
+{
+  "upstream_checksums_match": true,
+  "files": [
+    {
+      "file": "scripts/audit_inputs.py",
+      "original_sha256": "ab43772bd4bddec92df0f98f3552e991414876a48cf050ace4192f2f9238fa60",
+      "cleaned_sha256": "857b1cd6e77569a94057d1102c13281e37b4e02689b54443959ac84e40a2ae49",
+      "edits": [
+        "Resolve project root relative to script and update relocated paths"
+      ],
+      "comment_cleanup_ast_equal": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "scripts/prepare_local_atlas.py",
+      "original_sha256": "60dcf5f6ac2b809060a0d0af22ff5605ce731ad09ea97f11851112d1ec4efcfe",
+      "cleaned_sha256": "1be5c52b3672d1f3a4dc91d416c7a6bfe8f205046bcffd4354996056ed6e7c21",
+      "edits": [
+        "Resolve project root relative to script and update relocated paths"
+      ],
+      "comment_cleanup_ast_equal": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "scripts/prepare_original_local.py",
+      "original_sha256": "8edda21c20496aff5ba71c5bd2b16db1d8cfda54623349132d0ac91a22ab460f",
+      "cleaned_sha256": "f89fb009806a8499c5ae7cc07b2a898d1ab7f7e03f21c2afafb8c19f4ed0acfe",
+      "edits": [
+        "Resolve project root relative to script and update relocated paths"
+      ],
+      "comment_cleanup_ast_equal": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "scripts/run_local_sources.py",
+      "original_sha256": "0011d5cd4d6d96c9c73f92b20ad2ff6aad4386e6c0a36fa0e931b6e696f55f25",
+      "cleaned_sha256": "2487e512bdbfb9fec38bcbd405f87c6144735eefea80c355e20cf6de5096d6a3",
+      "edits": [
+        "Resolve project root relative to script and update relocated paths"
+      ],
+      "comment_cleanup_ast_equal": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "scripts/run_prediction_pipeline.py",
+      "original_sha256": "35e8c420b6c4086e37e2565d03eb9abc3c1518d3c61663b6736af337a47da327",
+      "cleaned_sha256": "f500e90ad044de199662f30840f92e7635a072cf4259b6e6394f8cb4504c1c6c",
+      "edits": [
+        "Resolve project root relative to script and update relocated paths"
+      ],
+      "comment_cleanup_ast_equal": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "src/compact.py",
+      "original_sha256": "cadea5713420ac38956b03ae2420eb2c897ceea710f466317bcd18e26f88a224",
+      "cleaned_sha256": "bbb030943e34e741f63f8eb655988f006403e8740a840f391a4d586f7060603e",
+      "edits": [],
+      "comment_cleanup_ast_equal": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "src/model.py",
+      "original_sha256": "8ad68112dbfa9c5c8c8b21a717dbe475fe23613f84c25e844fbfbf8bb47cff3b",
+      "cleaned_sha256": "00ea326149751d50860072474fe7a65f7cb3cb9751bafcabe2972fdd0f63ee59",
+      "edits": [],
+      "comment_cleanup_ast_equal": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "src/pack.py",
+      "original_sha256": "d8eaa1c5cc43216120a4eaea3cbcf4e9f4d3ba7c997c12459862e5acde169589",
+      "cleaned_sha256": "a942d4ab141adfd79d81bd4b6af8f060d3fa3bddf9b3a542986c2794abb68de9",
+      "edits": [
+        "Preserve CLI description as a string before removing docstrings"
+      ],
+      "comment_cleanup_ast_equal": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "src/predict.py",
+      "original_sha256": "c6a81f51a16309792c86664f5f4fd8a09adb5cf486928a7219f8611e6e0965ed",
+      "cleaned_sha256": "1409c845be8ef629edb9864181fa1b4f64f3c4d8f6676fd44f89629ac11d2a17",
+      "edits": [
+        "Preserve CLI description as a string before removing docstrings"
+      ],
+      "comment_cleanup_ast_equal": true,
+      "syntax_valid": true
+    },
+    {
+      "file": "src/prepare.py",
+      "original_sha256": "dc90b74b2478c72975b2065994a896eaef4663022973ccf3e1ec9931bc85fab7",
+      "cleaned_sha256": "c28c66c46ae883f9799043eee80da14debd085228bbd920c0a9127828abccb38",
+      "edits": [
+        "Preserve CLI description as a string before removing docstrings"
+      ],
+      "comment_cleanup_ast_equal": true,
+      "syntax_valid": true
+    }
+  ],
+  "full_inference_rerun": false
+}
